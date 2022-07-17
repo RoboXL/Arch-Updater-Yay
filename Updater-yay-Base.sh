@@ -13,7 +13,7 @@ If you are not a power user then you might wanna reboot"
 echo "Do you want to reboot? (Type 1 or 2)"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) make reboot; reboot;;
+        Yes ) reboot;;
         No ) echo "Ok Then you may close the window now or if you executed this 
         using a command press ctrl+c";;
     esac
